@@ -1,0 +1,19 @@
+1. Convert the original `[dataset name].csv` to `[dataset name].geojson`. This can be accomplished through command line tools like OGR or through GUIs like QGIS. 
+	- Ensure that all fields that you wish to visualize in Mapbox are numeric
+	- Remove or replace all null values as those cannot be redefined in Mapbox styles. (eg, replace blanks or nulls with a value like -999 so that you can style them appropriately)
+	- If using complicated shape files like CSD data, simplify in a mapping program to reduce file size.
+	- Make sure you export to the projecttion EPSG:4326 rather than the default.
+
+
+2. Create a tileset (`*.mbtiles`) either by using [tippecanoe](https://github.com/mapbox/tippecanoe) for a more customized approach, or simply uploading the `[dataset name].geojson` in Mapbox Studio as Mapbox has created automatic script to convert the `[dataset name].geojson` to the desired `[dataset name].mbtiles`.
+	- If tippecanoe is used, the following command can run to create the `[dataset name].mbtiles`: `tippecanoe -o [dataset name].mbtiles --base-zoom 0 --force [dataset name].geojson`
+
+3. In Mapbox Studio, make sure your newly uploaded `[dataset name].mbtiles` is stored within the [tileset view](https://studio.mapbox.com/tilesets/).
+
+4. Next, go to the styles tab and copy (duplicate) an existing style. This assures that the same data layers and style properties are incorporated for the new dataset. If you are creating a new style, ensure that it is set up to be compatible with Mapbox GL 1.2, as this is the version used by the program.
+
+5. Open the copied style in Mapbox Studio, you will then need to update the data sources to the new `[dataset name]` and `[dataset name]-labels` map layers.
+	- Make sure the `[dataset name]` 
+	- Make sure the `[dataset name]-labels` layer is set to symbol type.
+
+6. Save the style, take note of the style URL and of the name of your dataset and label layers.

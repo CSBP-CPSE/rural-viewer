@@ -1,0 +1,12 @@
+The first step to adding a layer to the rural viewer is to prepare a CSV file containing the data you want to visualize along with some geographic information that will allow the data to be placed on a map.
+
+Point Data:
+- A set of CSV data with latitudes and longitudes attached.
+
+Shape Data:
+- A set of CSV data with some geographic identifier (CSDUID, CDUID, PRUID, etc) that can be linked to a shape file.
+
+All data sets must include:
+- All fields that will be expected to appear in the map pop-up or in the table data below
+- A CSD identifier, as currently all table searches are done at the CSD level. Note that province data or any other type of geography can still be created, it just requires a CSD column to also be present.
+- The data can have one row per CSD (for example) for shape data or multiple entries per CSD for point data. 
