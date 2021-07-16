@@ -1,0 +1,69 @@
+{
+    "id": "dependency",    
+	"style": "mapbox://styles/abkamunro/ckowc6wx30foi17nx5gs9ax3v/draft",	
+    "table": "config/tables/config.table.dependency.json",
+	"type": "single",  	
+    "layers": [{
+            "id": "dependencyCSD",
+			"click" : true
+        }, {
+            "id": "dependency-labels"
+        }
+    ],
+    "title": {
+        "en": "Dependency Ratio",
+        "fr": "Dependency Ratio French"
+    },
+    "abbr": {
+        "en": "D",
+        "fr": "D-French"
+    },
+    "legend": [{
+            "color": [151, 151, 151],
+            "label": {
+                "en": "No Population",
+                "fr": ""			
+            }
+		},{
+			"color": [0, 0, 204],
+            "label": {
+                "en": "0.3-0.4",
+                "fr": ""
+            }
+		},{
+            "color": [56, 93, 255],
+            "label": {
+                "en": "0.4-0.5",
+                "fr": ""
+            }
+		},{
+            "color": [194, 205, 254],
+            "label": {
+                "en": "0.5-0.6",
+                "fr": ""
+            }
+		},{
+            "color": [235, 238, 255],
+            "label": {
+                "en": "0.6-0.7",
+                "fr": ""
+            }
+		},{
+            "color": [224, 225, 254],
+            "label": {
+                "en": "0.7-0.8",
+                "fr": ""
+            }
+		},{
+            "color": [255, 255, 255],
+            "label": {
+                "en": "0.8 or more",
+                "fr": ""
+            }
+		}
+    ],
+	"variables": {
+		"en": "<p>The total demographic dependency ratio is the ratio of the combined youth population (0 to 19 years) and senior population (65 or older) to the working-age population (20 to 64 years).  It is expressed as the number of 'dependents' for every 100 'workers'.</p><p><b>Index:</b> The record number of the data row.</p><p><b>CSDUID:</b> Based on Statistics Canada's Standard Geographical Classification (SGC) 2016. Census subdivision (CSD) is the general term for municipalities (as determined by provincial/territorial legislation) or areas treated as municipal equivalents for statistical purposes (e.g., Indian reserves, Indian settlements and unorganized territories).</p><p><b>RuralUrbanFlag:</b> Based on Statistics Canada's Standard Geographical Classification (SGC) 2016. All regions and regional aggregates outside census metropolitan areas/census agglomerations were coded as Rural. All regions within census metropolitan areas/census agglomerations and regional aggregates were coded as Urban.</p><p><b>Provincial Urban/Rural Dependency Ratio:</b> The dependency ratio calculated on a provincial level for all populations in either urban or rural areas, with all regions and regional aggregates outside census metropolitan areas/census agglomerations coded as rural and all regions within census metropolitan areas/census agglomerations and regional aggregates coded as urban.</p><p><b>CSDDependency Ratio:</b> The dependency ratio calculated for each Census Subdivision.</p>",
+		"fr": "No Access French"		
+	}
+}

@@ -1,0 +1,433 @@
+{
+    "id": "cewsdpp",    
+	"style": "mapbox://styles/abkamunro/ckprnfmvr059i18mnvmgamjvc/draft",	
+    "table": "config/tables/config.table.cewsdpp.json",
+	"type": "multiple",  
+	"indicators": [{
+            "id": "P1",
+			"click" : true,
+		    "title": {
+				"en": "Period 1 - 2020-03-15",
+				"fr": "Période 1 - 2020-03-15"
+			},
+			"legend": [{
+				"color": [148, 148, 148],
+				"label": {
+					"en": "No Data",
+					"fr": "Pas de données"			
+					}},
+				{
+				"color": [229, 224, 255],
+				"label": {
+					"en": "0 - 100",
+					"fr": "0 - 100"			
+					}},
+				{
+				"color": [168,153,255],
+				"label": {
+					"en": "100 - 200",
+					"fr": "100 - 200"			
+					}},
+				{
+				"color": [28, 0, 189],
+				"label": {
+					"en": "200 - 300",
+					"fr": "200 - 300"			
+					}},
+				{
+				"color": [19, 0, 128],
+				"label": {
+					"en": "300 - 400",
+					"fr": "300 - 400"			
+					}},
+				{
+				"color": [11, 0, 71],
+				"label": {
+					"en": "400+",
+					"fr": "400+"			
+					}
+				}
+			]		
+        }, 
+		{
+            "id": "P2",
+			"click" : true,
+		    "title": {
+				"en": "Period 2 - 2020-04-12",
+				"fr": "Période 2 - 2020-04-12"
+			},
+			"legend": [{
+				"color": [148, 148, 148],
+				"label": {
+					"en": "No Data",
+					"fr": "Pas de données"			
+					}},
+				{
+				"color": [229, 224, 255],
+				"label": {
+					"en": "0 - 100",
+					"fr": "0 - 100"			
+					}},
+				{
+				"color": [168,153,255],
+				"label": {
+					"en": "100 - 200",
+					"fr": "100 - 200"			
+					}},
+				{
+				"color": [28, 0, 189],
+				"label": {
+					"en": "200 - 300",
+					"fr": "200 - 300"			
+					}},
+				{
+				"color": [19, 0, 128],
+				"label": {
+					"en": "300 - 400",
+					"fr": "300 - 400"			
+					}},
+				{
+				"color": [11, 0, 71],
+				"label": {
+					"en": "400+",
+					"fr": "400+"			
+					}
+				}
+			]		
+        },
+		{
+            "id": "P3",
+			"click" : true,
+		    "title": {
+				"en": "Period 3 - 2020-05-10",
+				"fr": "Période 3 - 2020-05-10"
+			},
+			"legend": [{
+				"color": [148, 148, 148],
+				"label": {
+					"en": "No Data",
+					"fr": "Pas de données"			
+					}},
+				{
+				"color": [229, 224, 255],
+				"label": {
+					"en": "0 - 100",
+					"fr": "0 - 100"			
+					}},
+				{
+				"color": [168,153,255],
+				"label": {
+					"en": "100 - 200",
+					"fr": "100 - 200"			
+					}},
+				{
+				"color": [28, 0, 189],
+				"label": {
+					"en": "200 - 300",
+					"fr": "200 - 300"			
+					}},
+				{
+				"color": [19, 0, 128],
+				"label": {
+					"en": "300 - 400",
+					"fr": "300 - 400"			
+					}},
+				{
+				"color": [11, 0, 71],
+				"label": {
+					"en": "400+",
+					"fr": "400+"			
+					}
+				}
+			]		
+        },
+		{
+            "id": "P4",
+			"click" : true,
+		    "title": {
+				"en": "Period 4 - 2020-06-07",
+				"fr": "Période 4 - 2020-06-07"
+			},
+			"legend": [{
+				"color": [148, 148, 148],
+				"label": {
+					"en": "No Data",
+					"fr": "Pas de données"			
+					}},
+				{
+				"color": [229, 224, 255],
+				"label": {
+					"en": "0 - 100",
+					"fr": "0 - 100"			
+					}},
+				{
+				"color": [168,153,255],
+				"label": {
+					"en": "100 - 200",
+					"fr": "100 - 200"			
+					}},
+				{
+				"color": [28, 0, 189],
+				"label": {
+					"en": "200 - 300",
+					"fr": "200 - 300"			
+					}},
+				{
+				"color": [19, 0, 128],
+				"label": {
+					"en": "300 - 400",
+					"fr": "300 - 400"			
+					}},
+				{
+				"color": [11, 0, 71],
+				"label": {
+					"en": "400+",
+					"fr": "400+"			
+					}
+				}
+			]		
+        },
+		{
+            "id": "P5",
+			"click" : true,
+		    "title": {
+				"en": "Period 5 - 2020-07-05",
+				"fr": "Période 5 - 2020-07-05"
+			},
+			"legend": [{
+				"color": [148, 148, 148],
+				"label": {
+					"en": "No Data",
+					"fr": "Pas de données"			
+					}},
+				{
+				"color": [229, 224, 255],
+				"label": {
+					"en": "0 - 100",
+					"fr": "0 - 100"			
+					}},
+				{
+				"color": [168,153,255],
+				"label": {
+					"en": "100 - 200",
+					"fr": "100 - 200"			
+					}},
+				{
+				"color": [28, 0, 189],
+				"label": {
+					"en": "200 - 300",
+					"fr": "200 - 300"			
+					}},
+				{
+				"color": [19, 0, 128],
+				"label": {
+					"en": "300 - 400",
+					"fr": "300 - 400"			
+					}},
+				{
+				"color": [11, 0, 71],
+				"label": {
+					"en": "400+",
+					"fr": "400+"			
+					}
+				}
+			]		
+        },
+		{
+            "id": "P6",
+			"click" : true,
+		    "title": {
+				"en": "Period 6 - 2020-08-02",
+				"fr": "Période 6 - 2020-08-02"
+			},
+			"legend": [{
+				"color": [148, 148, 148],
+				"label": {
+					"en": "No Data",
+					"fr": "Pas de données"			
+					}},
+				{
+				"color": [229, 224, 255],
+				"label": {
+					"en": "0 - 100",
+					"fr": "0 - 100"			
+					}},
+				{
+				"color": [168,153,255],
+				"label": {
+					"en": "100 - 200",
+					"fr": "100 - 200"			
+					}},
+				{
+				"color": [28, 0, 189],
+				"label": {
+					"en": "200 - 300",
+					"fr": "200 - 300"			
+					}},
+				{
+				"color": [19, 0, 128],
+				"label": {
+					"en": "300 - 400",
+					"fr": "300 - 400"			
+					}},
+				{
+				"color": [11, 0, 71],
+				"label": {
+					"en": "400+",
+					"fr": "400+"			
+					}
+				}
+			]		
+        },
+		{
+            "id": "P7",
+			"click" : true,
+		    "title": {
+				"en": "Period 7 - 2020-08-30",
+				"fr": "Période 7 - 2020-08-30"
+			},
+			"legend": [{
+				"color": [148, 148, 148],
+				"label": {
+					"en": "No Data",
+					"fr": "Pas de données"			
+					}},
+				{
+				"color": [229, 224, 255],
+				"label": {
+					"en": "0 - 100",
+					"fr": "0 - 100"			
+					}},
+				{
+				"color": [168,153,255],
+				"label": {
+					"en": "100 - 200",
+					"fr": "100 - 200"			
+					}},
+				{
+				"color": [28, 0, 189],
+				"label": {
+					"en": "200 - 300",
+					"fr": "200 - 300"			
+					}},
+				{
+				"color": [19, 0, 128],
+				"label": {
+					"en": "300 - 400",
+					"fr": "300 - 400"			
+					}},
+				{
+				"color": [11, 0, 71],
+				"label": {
+					"en": "400+",
+					"fr": "400+"			
+					}
+				}
+			]		
+        },
+		{
+            "id": "P8",
+			"click" : true,
+		    "title": {
+				"en": "Period 8 - 2020-09-27",
+				"fr": "Période 8 - 2020-09-27"
+			},
+			"legend": [{
+				"color": [148, 148, 148],
+				"label": {
+					"en": "No Data",
+					"fr": "Pas de données"			
+					}},
+				{
+				"color": [229, 224, 255],
+				"label": {
+					"en": "0 - 100",
+					"fr": "0 - 100"			
+					}},
+				{
+				"color": [168,153,255],
+				"label": {
+					"en": "100 - 200",
+					"fr": "100 - 200"			
+					}},
+				{
+				"color": [28, 0, 189],
+				"label": {
+					"en": "200 - 300",
+					"fr": "200 - 300"			
+					}},
+				{
+				"color": [19, 0, 128],
+				"label": {
+					"en": "300 - 400",
+					"fr": "300 - 400"			
+					}},
+				{
+				"color": [11, 0, 71],
+				"label": {
+					"en": "400+",
+					"fr": "400+"			
+					}
+				}
+			]		
+        }
+	],	
+    "layers": [
+		{
+            "id": "P1",
+			"click" : true
+        },
+		{
+            "id": "P2",
+			"click" : true
+        },
+		{
+            "id": "P3",
+			"click" : true
+        },
+		{
+            "id": "P4",
+			"click" : true
+        },
+		{
+            "id": "P5",
+			"click" : true
+        },
+		{
+            "id": "P6",
+			"click" : true
+        },
+		{
+            "id": "P7",
+			"click" : true
+        },
+		{
+            "id": "P8",
+			"click" : true
+        },
+		{
+            "id": "broadband-labels"
+        }
+    ],
+    "title": {
+        "en": "CEWS Subsidies ($/pop)",
+        "fr": "Subventions SSUC ($/pop)"
+    },
+    "abbr": {
+        "en": "MM",
+        "fr": "MM-French"
+    },
+    "legend": [{
+            "color": [219, 219, 219],
+            "label": {
+                "en": "INCORRECT LOAD",
+                "fr": "Pas de données"			
+            }
+		}
+    ],
+	"variables": {
+		"en": "<p><b>CSDUID:</b> CSDUID is from Statistics Canada's Standard Geographical Classification (SGC) 2016. Census subdivision (CSD) is the general term for municipalities (as determined by provincial/territorial legislation) or areas treated as municipal equivalents for statistical purposes (e.g., Indian reserves, Indian settlements and unorganized territories).</p><p><b>RuralUrbanFlag:</b> RuralUrbanFlag is derived from the business location in Statistics Canada's Business Register and is based on Statistics Canada's Standard Geographical Classification (SGC) 2016. All regions and regional aggregates outside census metropolitan areas/census agglomerations were coded as rural. All regions within census metropolitan areas/census agglomerations and regional aggregates were coded as urban.</p><p><b>Population 2016:</b> The population count of the Census Subdivision based on data from the 2016 Census of Population.</p><p><b>CEWS Subsidy Dollars by capita:</b> Total basic CEWS subsidy (in dollars rounded to thousands) recieved by businesses in each geography by period, divided by the population of that CSD.</p><p><b>Periods:</b> Start date of Period covered by the claim. The eligible periods are as follows:</p> <ul><li>Period 1: March 15, 2020 to April 11, 2020</li><li>Period 2: April 12, 2020 to May 9, 2020</li><li>Period 3: May 10, 2020 to June 6, 2020</li><li>Period 4: June 7, 2020 to July 4, 2020</li><li>Period 5: July 5, 2020 to August 1, 2020</li><li>Period 6: August 2, 2020 to August 29, 2020</li><li>Period 7: August 30, 2020 to September 26, 2020</li><li>Period 8: September 27, 2020 to October 24, 2020</li>",
+		"fr": "<p><b>SDRidu:</b> SDRidu provient de la Classification géographique type (CGT) 2016 de Statistique Canada. La subdivision de recensement (SDR) est un terme générique qui désigne les municipalités (telles que définies par les lois provinciales/territoriales) ou les territoires considérés comme étant des équivalents municipaux à des fins statistiques (p. ex., les réserves indiennes, les établissements indiens et les territoires non organisés).</p><p><b>IndicateurRuralUrbain:</b> La variable IndicateurRuralUrbain est calculée d’après l’emplacement des lieux d’affaires selon le Registre des entreprises de Statistique Canada; elle est fondée sur la Classification géographique type (CGT) 2016 de Statistique Canada. Les régions et les agrégats régionaux situés à l’extérieur de régions métropolitaines de recensement/agglomérations de recensement ont reçu le code de région rurale (rural). Les régions et les agrégats régionaux se trouvant à l’intérieur de régions métropolitaines de recensement/agglomérations de recensement ont reçu le code de région urbaine (urban).</p><p><b>Population 2016:</b> Chiffre de population de la subdivision de recensement basé sur les données du Recensement de la population de 2016.</p><p><b>Subvention SSUC en dollars par habitant :</b> Subvention de base totale de la SSUC (en dollars arrondis au millier près) reçue par les entreprises dans chaque zone géographique par période, divisée par la population de ce SDR.</p><p><b>Period:</b> Date de début de la période couverte par la demande. Les périodes éligibles sont les suivantes :</p><ul><li>Période 1: 12 mars 2020 au 11 avril 2020</li><li>Période 2: 11 avril 2020 au 9 mai 2020</li><li>Période 3: 9 mai 2020 au 6 juin 2020</li><li>Période 4: 7 juin 2020 au 4 juillet 2020</li><li>Période 5: 5 juillet 2020 au 1 août 2020</li><li>Période 6: 2 août 2020 au 29 août 2020</li><li>Période 7: 30 août 2020 au 26 septembre 2020</li><li>Période 8: 27 septembre 2020 au 24 octobre 2020</li>"		
+	}
+	
+}

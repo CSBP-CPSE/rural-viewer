@@ -1,0 +1,125 @@
+{
+    "id": "multimap",    
+	"style": "mapbox://styles/abkamunro/ckpr1al9k21gr18o0vccteftg/draft",	
+    "table": "config/tables/config.table.multimap.json",
+	"type": "multiple",  
+	"indicators": [{
+            "id": "lowIncome",
+			"click" : true,
+		    "title": {
+				"en": "Low Income Households (%)",
+				"fr": "Multi-Map French"
+			},
+			"legend": [{
+				"color": [219, 219, 219],
+				"label": {
+					"en": "No Data",
+					"fr": "No Access French"			
+					}},
+				{
+				"color": [255, 194, 194],
+				"label": {
+					"en": "0 - 15",
+					"fr": "No Access French"			
+					}},
+				{
+				"color": [255, 97, 97],
+				"label": {
+					"en": "15 - 30",
+					"fr": "No Access French"			
+					}},
+				{
+				"color": [245, 0, 0],
+				"label": {
+					"en": "30 - 45",
+					"fr": "No Access French"			
+					}},
+				{
+				"color": [143, 0, 0],
+				"label": {
+					"en": "45 or more",
+					"fr": "No Access French"			
+					}
+			}]		
+        }, 
+		{
+            "id": "govTransfers",
+			"click" : true,
+		    "title": {
+				"en": "Government Transfer (%)",
+				"fr": "Multi-Map French"
+			},			
+			"legend": [{
+				"color": [219, 219, 219],
+				"label": {
+					"en": "No Data",
+					"fr": "No Access French"			
+					}},
+				{
+				"color": [158, 223, 255],
+				"label": {
+					"en": "0 - 15",
+					"fr": "No Access French"			
+					}},
+				{
+				"color": [41, 184, 255],
+				"label": {
+					"en": "15 - 30",
+					"fr": "No Access French"			
+					}},
+				{
+				"color": [0, 143, 214],
+				"label": {
+					"en": "30 - 45",
+					"fr": "No Access French"			
+					}},
+				{
+				"color": [0, 99, 148],
+				"label": {
+					"en": "45 - 60",
+					"fr": "No Access French"			
+					}
+				},
+				{
+				"color": [0, 61, 92],
+				"label": {
+					"en": "60 or more",
+					"fr": "No Access French"			
+					}
+				}
+			]
+    }],	
+    "layers": [{
+            "id": "lowIncome",
+			"click" : true
+        },
+		{
+            "id": "govTransfers",
+			"click" : true
+        },		
+		{
+            "id": "broadband-labels"
+        }
+    ],
+    "title": {
+        "en": "Multi-Map Example",
+        "fr": "Multi-Map French"
+    },
+    "useIndicatorTitles": true,	
+    "abbr": {
+        "en": "MM",
+        "fr": "MM-French"
+    },
+	"variables": {
+		"en": "<p><b>CSDUID:</b> Based on Statistics Canada's Standard Geographical Classification (SGC) 2016. Census subdivision (CSD) is the general term for municipalities (as determined by provincial/territorial legislation) or areas treated as municipal equivalents for statistical purposes (e.g., Indian reserves, Indian settlements and unorganized territories).</p><p><b>RuralUrbanFlag:</b> Based on Statistics Canada's Standard Geographical Classification (SGC) 2016. All regions and regional aggregates outside census metropolitan areas/census agglomerations were coded as Rural. All regions within census metropolitan areas/census agglomerations and regional aggregates were coded as Urban.</p><p><b>Prevalence of low income (%):</b> The percentage of households in the area classified as low-income. The Low-income measure, after tax, refers to a fixed percentage (50%) of median adjusted after-tax income of private households. The household after-tax income is adjusted by an equivalence scale to take economies of scale into account. This adjustment for different household sizes reflects the fact that a household's needs increase, but at a decreasing rate, as the number of members increases.  Using data from the 2016 Census of Population, the line applicable to a household is defined as half the Canadian median of the adjusted household after-tax income, multiplied by the square root of household size. The median is determined based on all persons in private households where low-income concepts are applicable.</p> <p><b>% of CSD income from Government Transfers:</b> The composition of total income in 2015 of the population aged 15 years and over made up from government transfers. Government transfers are all cash benefits received from federal, provincial, territorial or municipal governments during the reference period, including:</p> <ul> <li> Old Age Security pension, Guaranteed Income Supplement, Allowance or Allowance for the Survivor;</li><li>retirement, disability and survivor benefits from Canada Pension Plan and Québec Pension Plan;</li><li>benefits from Employment Insurance and Québec parental insurance plan;</li><li>child benefits from federal and provincial programs;</li><li>social assistance benefits;</li><li>workers' compensation benefits;</li><li>Working income tax benefit;</li><li>Goods and services tax credit and harmonized sales tax credit;</li><li>other income from government sources.</li></ul>",
+		"fr": "No Access French"			
+	},
+    "legend": [{
+            "color": [219, 219, 219],
+            "label": {
+                "en": "INCORRECT LOAD",
+                "fr": "No Access French"			
+            }
+		}
+    ]
+}

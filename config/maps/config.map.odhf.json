@@ -1,0 +1,43 @@
+{
+    "id": "odhf",    
+	"style": "mapbox://styles/deil-leid/ckdhs8cjs052s1inu818yovbh",
+    "table": "config/tables/config.table.odhf.json",
+	"type": "single",  		
+    "layers": [{
+            "id": "odhf",
+			"click" : true
+        }, {
+            "id": "odhf-labels"
+        }
+    ],
+    "title": {
+        "en": "Open Database of Healthcare Facilities",
+        "fr": "Base de données ouvertes sur les établissements de soins de santé"
+    },
+    "abbr": {
+        "en": "ODHF",
+        "fr": "BDOESS"
+    },
+    "legend": [{
+            "color": [255, 0, 0],
+            "label": {
+                "en": "Hospitals",
+                "fr": "Les hôpitaux"
+            },
+            "value": ["==", ["get", "odhf_facility_type"], "Hospitals"]
+        }, {
+            "color": [255, 255, 179],
+            "label": {
+                "en": "Nursing and residential care facilities",
+                "fr": "Établissements de soins infirmiers et de soins pour bénéficiaires internes"
+            },
+            "value": ["==", ["get", "odhf_facility_type"], "Nursing and residential care facilities"]
+        }, {
+            "color": [190, 186, 218],
+            "label": {
+                "en": "Ambulatory health care services",
+                "fr": "Services de soins de santé ambulatoires"
+            }
+        }
+    ]
+}

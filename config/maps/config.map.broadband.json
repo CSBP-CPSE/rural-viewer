@@ -1,0 +1,69 @@
+{
+    "id": "broadband",    
+	"style": "mapbox://styles/abkamunro/ckkvo7sa900jm17qotqvdf0af/draft",	
+    "table": "config/tables/config.table.broadband.json",
+	"type": "single",  	
+    "layers": [{
+            "id": "broadband",
+			"click" : true
+        }, {
+            "id": "broadband-labels"
+        }
+    ],
+    "title": {
+        "en": "Broadband Index 2",
+        "fr": "Broadband French"
+    },
+    "abbr": {
+        "en": "B",
+        "fr": "B-French"
+    },
+    "legend": [{
+            "color": [219, 219, 219],
+            "label": {
+                "en": "No Access",
+                "fr": "No Access French"			
+            }
+		},{
+			"color": [91, 106, 143],
+            "label": {
+                "en": "Urban",
+                "fr": "Urbain"
+            }
+		},{
+            "color": [255, 209, 209],
+            "label": {
+                "en": "0.0-0.2",
+                "fr": "Établissements de soins infirmiers et de soins pour bénéficiaires internes"
+            }
+		},{
+            "color": [255, 158, 158],
+            "label": {
+                "en": "0.2-0.4",
+                "fr": "Services de soins de santé ambulatoires"
+            }
+		},{
+            "color": [255, 108, 108],
+            "label": {
+                "en": "0.4-0.6",
+                "fr": "Services de soins de santé ambulatoires"
+            }
+		},{
+            "color": [255, 58, 58],
+            "label": {
+                "en": "0.6-0.8",
+                "fr": "Services de soins de santé ambulatoires"
+            }
+		},{
+            "color": [255, 0, 0],
+            "label": {
+                "en": "0.8-1.0",
+                "fr": "Services de soins de santé ambulatoires"
+            }
+		}	
+    ],	
+	"variables": {
+		"en": "<p><b>Index:</b> The record number of the data row.</p><p><b>CSDUID:</b> Based on Statistics Canada's Standard Geographical Classification (SGC) 2016. Census subdivision (CSD) is the general term for municipalities (as determined by provincial/territorial legislation) or areas treated as municipal equivalents for statistical purposes (e.g., Indian reserves, Indian settlements and unorganized territories).</p><p>The broadband internet access indices provide a relative measure of access to broadband internet in rural areas. Two versions of the index, Index 1 and Index 2, have been produced to enable aspects of rural internet access to be emphasized and to address differing user needs.</p> <p><b>Index 1</b> takes a comprehensive view of broadband internet in rural areas by scoring access across three dimensions: internet speed, number of access technologies, and number of internet service providers.</p><p><b>Index 2</b> takes a more straightforward view of broadband internet access by focusing only on internet speed, which is the single most important element of internet access.</p>",
+		"fr": "No Access French"		
+	}
+}
