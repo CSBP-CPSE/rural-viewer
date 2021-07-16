@@ -1,0 +1,47 @@
+import Typeahead from '../../basic-tools/components/typeahead.js';
+import Control from '../components/control.js';
+import Core from '../../basic-tools/tools/core.js';
+import Dom from '../../basic-tools/tools/dom.js';
+
+export default class Search extends Control { 
+		
+	constructor(options) {	
+		super(options);
+		
+		this._container = this.Node('root');
+		
+		this.layer = options.layer;
+		this.field = options.field;
+		this.color = options.color;
+		
+		// TODO : This should probably happen outside of the widget.
+		this.Node('typeahead').items = this.Itemize(options.items);
+		this.Node('typeahead').placeholder = options.placeholder;
+		this.Node('typeahead').title = options.title;
+	
+		this.Node('typeahead').On('Change', this.onTypeaheadChange_Handler.bind(this));
+	}
+	
+	Itemize(items) {		
+		return items.sort((a, b) => { return a.label > b.label ? 1 : -1 });
+	}
+	
+	onTypeaheadChange_Handler(ev) {
+		var data = {
+			layer : this.layer,
+			field : this.field,
+			color : this.color,
+			item : ev.item
+		}
+		
+		this.Emit('Change', data);
+	}
+	
+	Template() {        
+		return "<div handle='root' class='search-control mapboxgl-ctrl'>" +
+				  "<div handle='typeahead' widget='Basic.Components.Typeahead'></div><br><br>" +
+				  "<input type='radio' name='tableCompare' value='0' checked = 'checked' title = 'nls(Add_Comparison_Area_Title1)'> nls(Search_New_Area) </input><br>" + 
+				"<input type='radio' name='tableCompare' value='1'  title = 'nls(Add_Comparison_Area_Title2)' disabled> nls(Add_Comparison_Area)</input>" +
+			   "</div>";
+	}
+}
